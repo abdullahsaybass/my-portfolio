@@ -1,0 +1,40 @@
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 80px; */
+    /* margin: 0px 170px; */
+}
+
+.work-title {
+    position: relative;
+    text-align: center;
+}
+
+.work-title h1 {
+    padding: 0px 20px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.work-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.work-container img{
+   
+    /* width: 419px;
+    height: 280px; */
+    transition: 0.3s;
+    cursor: pointer;
+} 
+.work-container img:hover{
+    transform: scale(1.10);
+    border: 4px solid #ff00ff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
