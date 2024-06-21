@@ -2,7 +2,7 @@ import Navbar from './componenet/navbar/Navbar'
 import Hero from "./componenet/hero/Hero"
 import About from './componenet/about/About'
 import Service from './componenet/services/Service'
-import Work from './componenet/mywork/Work'
+import Footer from './componenet/footer/Footer'
 import Contact from './componenet/contact/Contact'
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
         <About />
         <Service />
         <Contact />
+        <Footer />
         {/* <Work /> */}
     </>
   )

@@ -1,17 +1,18 @@
 import React from 'react'
 import './Hero.css'
-import profileImage from '../../assets/profile_img.svg'
+import profileImage from '../../assets/zenith.jpeg'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div id = 'menu' className='hero'>
         <img src = {profileImage} alt="profile-image" />
-        <h1><span>I'm Abdullah Saybas,</span>Web Developer Based on TamilNadu</h1>
-        <p>I am a Front-end Developer with hands-on experience in building web 
-          projects. I have a solid foundation in HTML, CSS, JavaScript, and 
-          ReactJS which I have applied in various personal and collaborative projects</p>
+        <h1><span>I'm Abdullah Saybas,</span>Front-End Developer Based on TamilNadu</h1>
+        <p>I am an aspiring Web Developer with foundational knowledge in HTML, CSS, JavaScript, and ReactJS.
+           As a fresher, I have started applying these skills in personal projects and collaborations,
+           and I am eager to learn and grow in the field of web development.</p>
         <div className='hero-actions'>
-          <div className='hero-connect'>Connect with me</div>
+          <div className='hero-connect'><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
           <div className='hero-resume'>My resume</div>
         </div>
     </div>

@@ -24,6 +24,10 @@
     display: flex;
     gap:80px;
 }
+.about-sections img{
+    width: 300px;
+    height: 350px;
+}
 .about-right{
     display: flex;
     flex-direction: column;
@@ -92,4 +96,54 @@
 .about-achievment:hover{
     transform: scale(1.05);
     transition: 0.5s;
+}
+@media(max-width:768px){
+    .about{
+        gap: 80px;
+        margin: 30px 40px;
+       align-items: start;
+    }
+    .about-title h1{
+        font-size: 40px;
+        padding: 0;
+    }
+    .about-title img{
+        width: 130px;
+        right: -20px;
+    }
+    .about-sections{
+        flex-direction: column;
+    }
+    .about-left{
+        display: none;
+    }
+    .about-para{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .about-skill{
+        gap: 20px;
+        align-items: center;
+    }
+    .about-skill p{
+        font-size: 18px;
+    }
+    .about-skill hr{
+        height: 6px;
+    }
+    .about-achievments{
+        justify-content: space-between;
+    }
+    .about-achievment{
+        gap: 8px;
+    }
+    .about-achievment h1{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .about-achievment p{
+        text-align: center;
+        font-size: 16px;
+    }
+
 }
