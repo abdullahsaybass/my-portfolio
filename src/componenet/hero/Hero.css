@@ -114,3 +114,8 @@
         font-size: 14px;
     }
 }
+@media(max-width:370px){
+    .hero-actions{
+        flex-direction: column;
+    }
+}
