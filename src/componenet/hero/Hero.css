@@ -115,7 +115,8 @@
     }
 }
 @media(max-width:370px){
-    .hero-actions{
-        flex-direction: column;
+    .hero-connect, .hero-resume {
+        padding: 10px 20px;
+        font-size: 12px;
     }
 }
