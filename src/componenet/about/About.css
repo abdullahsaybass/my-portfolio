@@ -147,3 +147,29 @@
     }
 
 }
+@media(max-width:768px){
+    .about-skill{
+        gap: 20px;
+        align-items: center;
+    }
+    .about-skill p{
+        font-size: 12px;
+    }
+    .about-skill hr{
+        height: 3px;
+    }
+    .about-achievments{
+        justify-content: space-between;
+    }
+    .about-achievment{
+        gap: 4px;
+    }
+    .about-achievment h1{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .about-achievment p{
+        text-align: center;
+        font-size: 12px;
+    }
+}

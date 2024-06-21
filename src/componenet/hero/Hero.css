@@ -119,4 +119,9 @@
         padding: 10px 20px;
         font-size: 12px;
     }
+    .hero p {
+        font-size: 20px;
+        line-height: 22px;
+        align-items: start;
+    }
 }
