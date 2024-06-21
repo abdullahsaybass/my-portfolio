@@ -87,3 +87,30 @@
         border-radius: 40px;
     }
 }
+
+@media (max-width: 440px) {
+    .hero img {
+        width: 180px;
+        height: 180px;
+        margin-top: 15px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+        
+    }
+
+    .hero p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .hero-actions {
+        margin-top: 20px;
+    }
+
+    .hero-connect, .hero-resume {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+}

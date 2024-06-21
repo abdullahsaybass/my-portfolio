@@ -76,3 +76,8 @@
         margin-bottom: 50px;
     }
 }
+@media(max-width:440px){
+    .footer-top-right{
+        flex-direction: column;
+    }
+}
