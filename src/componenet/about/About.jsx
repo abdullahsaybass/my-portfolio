@@ -44,23 +44,6 @@ const About = () => {
                 </div>
             </div>
         </div>
-
-        <div className="about-achievements">
-            <div className="about-achievment">
-                <h1>500+</h1>
-                <p>500+ problems solved</p>
-            </div>
-            <hr />
-             <div className="about-achievment">
-                <h1>4+</h1>
-                <p>Projects Completed</p>
-            </div>
-            <hr />
-             <div className="about-achievment">
-                <h1>962+</h1>
-                <p>Points on competitive programming on CodeChef</p>
-            </div>
-        </div>
     </div>
   )
 }
